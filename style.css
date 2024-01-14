@@ -24,7 +24,7 @@ body {
 
 .main_container {
     background-color: var(--white);
-    width: 380px;
+    width: 385px;
     border: 2px solid black;
     border-radius: 25px;
     padding: 25px;
@@ -39,17 +39,17 @@ body {
 h1, h2, h3, p {
     font-family: 'figree', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 p {
     color: var(--grey);
-    font-weight: 500;
-    letter-spacing: 0.6px;
+    font-weight:500;
+    line-height: 20px;
     padding-bottom: 9px;
 }
 
@@ -58,27 +58,26 @@ p {
 }
 
 .learning, h2 {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .learning {
     background-color: var(--yellow);
-    width: 30%;
-    padding: 5px;
+    width: 26%;
+    padding: 5px 3px;
     text-align: center;
     border-radius: 5px;
     margin: 22px 0 15px;
     letter-spacing: -0.3px;
-    
 }
 
 .flex_box_with_avatar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .avatar {
-    width: 40px;
+    width: 30px;
 }
